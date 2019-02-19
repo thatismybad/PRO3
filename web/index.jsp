@@ -5,6 +5,6 @@
 </head>
 <body>
 <h1>Webová aplikace s využitím servletů</h1>
-<p>Proklik do servletu: <a href="Servlet">Servlet</a></p>
+<p>Proklik do servletu: <a href="mujservlet">Servlet</a></p>
 </body>
 </html>

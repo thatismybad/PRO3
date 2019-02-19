@@ -8,10 +8,16 @@ import java.util.Enumeration;
 
 @WebServlet(name = "Servlet")
 public class Servlet extends HttpServlet {
+    /**
+     * Obsluha POST requestu
+     */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 
     }
 
+    /**
+     * Obsluha GET requestu
+     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
@@ -26,8 +32,10 @@ public class Servlet extends HttpServlet {
             writer.println("<body>");
             writer.println("<h1>Servlet na cestě '/" + request.getContextPath() + "'</h1><br />");
 
+            // vypsani retezce se vsemi parametry a hodnotami v url
             writer.println("Parametry: <strong>" +  query+ "</strong><br />");
 
+            // vypsani vsech parametru a jejich hodnot
             while (e.hasMoreElements()) {
                 String parameter = e.nextElement().toString();
                 String value = request.getParameter(parameter);
