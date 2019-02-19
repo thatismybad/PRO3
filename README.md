@@ -3,7 +3,7 @@
 ## Obsah ##
 
 - servlety
-    - základní práce servlet
+    - základní práce se servlety
 
 ## Branche ##
 
