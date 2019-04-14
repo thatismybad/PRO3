@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PRO3.iml" filepath="$PROJECT_DIR$/PRO3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cv1_servlety/cv1_servlety.iml" filepath="$PROJECT_DIR$/cv1_servlety/cv1_servlety.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cv2_session/cv2_session.iml" filepath="$PROJECT_DIR$/cv2_session/cv2_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cv_spring/cv_spring.iml" filepath="$PROJECT_DIR$/cv_spring/cv_spring.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cv_spring:war">
+    <output-path>$PROJECT_DIR$/cv_spring/target</output-path>
+    <root id="archive" name="webapp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cv_spring:war exploded" />
+    </root>
+  </artifact>
+</component>

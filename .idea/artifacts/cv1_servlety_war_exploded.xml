@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cv1_servlety:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cv1_servlety_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cv1_servlety/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cv1_servlety" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
